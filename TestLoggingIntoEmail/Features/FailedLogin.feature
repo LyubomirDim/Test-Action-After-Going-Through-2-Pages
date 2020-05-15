@@ -13,7 +13,7 @@ Scenario: Login fails when invalid password is provided
 	And I press the button Enter
 	Then I will see an error message
 	Examples: 
-	| username              | password |
-	| mytestemail008@abv.bg | oiuyfkdl |
-	| mytestemail008@abv.bg | 95lr;lf9 |
+	| username              | password | error message |
+	| mytestemail008@abv.bg | oiuyfkdl |               |
+	| mytestemail008@abv.bg | 95lr;lf9 |               |
 
